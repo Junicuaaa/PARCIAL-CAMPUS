@@ -1,0 +1,94 @@
+    <nav>
+        <img src="../../img/nave-espacial.png" alt="icon">
+        <h2>Zenith Project</h2>
+    </nav>
+    <div>
+        <h1>Add a Camper!</h1>
+        <form>
+            <input type="text" placeholder="Camper's name" name="name" required>
+            <input type="text" placeholder="Camper's age" name="age" required>
+            <input type="text" placeholder="Camper's phone number" name="phone" required>
+            <input type="email" placeholder="Camper's email" name="email" required>
+            <input type="text" placeholder="Camper's adress" name="adress" required>
+            <label for=""><i>Camper's birth date</i></label>
+            <input type="date" name="birth" required>
+            <input type="text" placeholder="Camper's ID number" name="IdNumber" required>
+            <label for=""><i>Camper's entry date</i></label>
+            <input type="date" placeholder="Camper's entry date" name="entry" required>
+            <select name="teamId" required>
+                <option value="">Select Camper's team</option>
+                <option value="1">Sputnik</option>
+                <option value="2">Apollo</option>
+                <option value="3">Artemis</option>
+            </select>
+            <button type="submit">Add Camper</button>
+        </form>
+        <button type="button" class="change">GO MAIN PAGE!</button>
+    </div>
+<style>
+    *{
+        font-family: system-ui;
+    }
+    h1,h2{
+        font-family: 'Courier New', Courier, monospace;
+        color: #ffff;
+    }
+    div {   
+        margin-top: auto;
+        text-align: center;
+    }
+
+    form {
+        color: #ffff;
+        padding: 30px;
+        border-end-end-radius: 20px;
+        border-start-start-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.164);
+        backdrop-filter: blur(.5rem);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 16px;
+        width: fit-content;
+        margin: auto;
+    }
+
+    input,
+    select,
+    option,
+    button {
+        border: none;
+        border-end-end-radius: 20px;
+        border-start-start-radius: 20px;
+        box-sizing: border-box;
+        width: 276px;
+        height: 40px;
+    }
+    button{
+        background-color: red;
+        color: #ffff;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        background-color: #000000;
+        background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 2000 1500'%3E%3Cdefs%3E%3Crect fill='none' stroke-width='1' id='a' x='-400' y='-300' width='800' height='600'/%3E%3C/defs%3E%3Cg style='transform-origin:center'%3E%3Cg transform='rotate(180 0 0)' style='transform-origin:center'%3E%3Cg transform='rotate(-160 0 0)' style='transform-origin:center'%3E%3Cg transform='translate(1000 750)'%3E%3Cuse stroke='%23000' href='%23a' transform='rotate(10 0 0) scale(1.1)'/%3E%3Cuse stroke='%23110000' href='%23a' transform='rotate(20 0 0) scale(1.2)'/%3E%3Cuse stroke='%23220000' href='%23a' transform='rotate(30 0 0) scale(1.3)'/%3E%3Cuse stroke='%23330000' href='%23a' transform='rotate(40 0 0) scale(1.4)'/%3E%3Cuse stroke='%23440000' href='%23a' transform='rotate(50 0 0) scale(1.5)'/%3E%3Cuse stroke='%23550000' href='%23a' transform='rotate(60 0 0) scale(1.6)'/%3E%3Cuse stroke='%23660000' href='%23a' transform='rotate(70 0 0) scale(1.7)'/%3E%3Cuse stroke='%23770000' href='%23a' transform='rotate(80 0 0) scale(1.8)'/%3E%3Cuse stroke='%23880000' href='%23a' transform='rotate(90 0 0) scale(1.9)'/%3E%3Cuse stroke='%23990000' href='%23a' transform='rotate(100 0 0) scale(2)'/%3E%3Cuse stroke='%23aa0000' href='%23a' transform='rotate(110 0 0) scale(2.1)'/%3E%3Cuse stroke='%23bb0000' href='%23a' transform='rotate(120 0 0) scale(2.2)'/%3E%3Cuse stroke='%23cc0000' href='%23a' transform='rotate(130 0 0) scale(2.3)'/%3E%3Cuse stroke='%23dd0000' href='%23a' transform='rotate(140 0 0) scale(2.4)'/%3E%3Cuse stroke='%23ee0000' href='%23a' transform='rotate(150 0 0) scale(2.5)'/%3E%3Cuse stroke='%23FF0000' href='%23a' transform='rotate(160 0 0) scale(2.6)'/%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+    img{
+        width: 4rem;
+    }
+    nav{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #000000;
+    }
+    .change{
+        margin-top: 16px;
+        border-radius: 0px;
+    }
+</style>

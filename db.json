@@ -1,0 +1,44 @@
+{
+  "campers": [
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "sputnik",
+      "trainer": "Miguel"
+    },
+    {
+      "id": 2,
+      "name": "apollo",
+      "trainer": "yolver"
+    },
+    {
+      "id": 3,
+      "name": "artemis",
+      "trainer": "verme"
+    }
+  ],
+  "skill": [
+    {
+      "id": 1,
+      "name": "Front-end design"
+    }
+  ],
+  "skill_module": [
+    {
+      "id": 1,
+      "name": "HTML",
+      "skillId": 1
+    },
+    {
+      "id": 2,
+      "name": "CSS",
+      "skillId": 1
+    },
+    {
+      "id": 3,
+      "name": "JS",
+      "skillId": 1
+    }
+  ]
+}
