@@ -40,11 +40,15 @@ self.addEventListener("message", async (e)=>{
 })
 self.addEventListener("message", async (e)=>{
     if (e.data.data) {
+        let data = e.data.data
+        let {name, age, phone, email, adress, birth, idNumber, entry, teamId} = data
+        teamId = parseInt(teamId)
+        dataParsed = {name, age, phone, email, adress, birth, idNumber, entry, teamId}
         let request2 = await (await fetch(`http://localhost:${puerto}/campers/${e.data.id}`, 
         {
             method: "PUT", 
             headers: headers,
-            body: JSON.stringify(e.data.data)
+            body: JSON.stringify(dataParsed)
         })).json();
     }
 })

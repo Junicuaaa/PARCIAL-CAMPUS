@@ -3,4 +3,5 @@ import getTeams from "./services/getDataTeams.js"
 
 get.printData();
 getTeams.printData();
+getTeams.printCampers();
 get.getUnderage();

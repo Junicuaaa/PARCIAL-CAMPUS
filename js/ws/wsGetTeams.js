@@ -25,7 +25,6 @@ let ws = {
                     <div class="modal-body">
                     <ul class="team${element.name}">
                         <i>${element.trainer} students</i>
-                        ${this.embedCamper(nameCamper)}
                     </ul>
                     </div>
                     <div class="modal-footer">
@@ -47,10 +46,6 @@ let ws = {
 }
 self.addEventListener("message", async (e) => {
     let data = await (await fetch(url, {
-        method: "GET",
-        headers: { "Content-Type": "application/js" }
-    })).json()
-    let data2 = await (await fetch(`http://localhost:${puerto}/teams?_embed=campers`, {
         method: "GET",
         headers: { "Content-Type": "application/js" }
     })).json()

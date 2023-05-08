@@ -9,7 +9,7 @@
       "birth": "2022-04-07",
       "idNumber": "asdsadssad",
       "entry": "2022-04-07",
-      "teamId": "1",
+      "teamId": 2,
       "id": 4
     },
     {
@@ -21,7 +21,7 @@
       "birth": "2022-04-07",
       "idNumber": "1515",
       "entry": "2022-04-07",
-      "teamId": "1",
+      "teamId": 1,
       "id": 5
     },
     {
@@ -33,20 +33,8 @@
       "birth": "2022-04-07",
       "idNumber": "109894",
       "entry": "2022-04-07",
-      "teamId": 2,
+      "teamId": 1,
       "id": 6
-    },
-    {
-      "name": "dsaddsadsada",
-      "age": "dddd",
-      "phone": "dsadsadsa",
-      "email": "asdsad@gmail.com",
-      "adress": "sadasdsad",
-      "birth": "2022-04-07",
-      "idNumber": "19409",
-      "entry": "2022-04-07",
-      "teamId": 2,
-      "id": 7
     }
   ],
   "teams": [
