@@ -1,8 +1,13 @@
-aside{
-    background-color: #0b0031;
-    background-image: url(layered-waves-haikei.png);
-    background-repeat: no-repeat;
-    background-position: bottom;
+.tableMain{
+    background-color: rgba(0, 0, 0, 0.452);
+    border-radius: 10px;
+    max-height: 1000px;
+    overflow: auto;
 }
-img{
+body{
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }

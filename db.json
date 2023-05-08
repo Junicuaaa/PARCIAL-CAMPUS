@@ -1,5 +1,16 @@
 {
   "campers": [
+    {
+      "name": "junior",
+      "age": "15",
+      "phone": "3107929053",
+      "email": "juniorsantiago@lasjdlkasd",
+      "adress": "cra4 # 715",
+      "birth": "2022-04-07",
+      "entry": "2022-04-07",
+      "teamId": 2,
+      "id": 1
+    }
   ],
   "teams": [
     {
