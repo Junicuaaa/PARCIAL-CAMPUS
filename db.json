@@ -1,32 +1,45 @@
 {
   "campers": [
     {
-      "name": "junior",
-      "age": "15",
-      "phone": "3107929053",
-      "email": "juniorsantiago@lasjdlkasd",
-      "adress": "cra4 # 715",
+      "name": "dsadsadsa",
+      "age": "dsadsadsa",
+      "phone": "dsadsadsa",
+      "email": "dssadda@gmail.com",
+      "adress": "dsadsadsa",
       "birth": "2022-04-07",
+      "idNumber": "asdsadssad",
       "entry": "2022-04-07",
       "teamId": 2,
-      "id": 1
+      "id": 4
+    },
+    {
+      "name": "ivan sanchez",
+      "age": "15",
+      "phone": "1515",
+      "email": "1515@gmail.com",
+      "adress": "sadsad",
+      "birth": "2022-04-07",
+      "idNumber": "1515",
+      "entry": "2022-04-07",
+      "teamId": "1",
+      "id": 5
     }
   ],
   "teams": [
     {
       "id": 1,
-      "name": "sputnik",
+      "name": "Sputnik",
       "trainer": "Miguel"
     },
     {
       "id": 2,
-      "name": "apollo",
-      "trainer": "yolver"
+      "name": "Apollo",
+      "trainer": "Yolver"
     },
     {
       "id": 3,
-      "name": "artemis",
-      "trainer": "verme"
+      "name": "Artemis",
+      "trainer": "Verme"
     }
   ],
   "skill": [

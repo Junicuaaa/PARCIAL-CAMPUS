@@ -5,25 +5,25 @@
     <div>
         <h1>Add a Camper!</h1>
         <form>
-            <input type="text" placeholder="Camper's name" name="name" required>
-            <input type="text" placeholder="Camper's age" name="age" required>
-            <input type="text" placeholder="Camper's phone number" name="phone" required>
-            <input type="email" placeholder="Camper's email" name="email" required>
-            <input type="text" placeholder="Camper's adress" name="adress" required>
-            <label for=""><i>Camper's birth date</i></label>
-            <input type="date" name="birth" required>
-            <input type="text" placeholder="Camper's ID number" name="idNumber" required>
-            <label for=""><i>Camper's entry date</i></label>
-            <input type="date" placeholder="Camper's entry date" name="entry" required>
-            <select name="teamId" required>
-                <option value="">Select Camper's team</option>
+            <input class="forminput" type="text" placeholder="Camper's name" name="name" required>
+            <input class="forminput" type="text" placeholder="Camper's age" name="age" required>
+            <input class="forminput" type="text" placeholder="Camper's phone number" name="phone" required>
+            <input class="forminput" type="email" placeholder="Camper's email" name="email" required>
+            <input class="forminput" type="text" placeholder="Camper's adress" name="adress" required>
+            <label class="forminput" for=""><i>Camper's birth date</i></label>
+            <input class="forminput" type="date" name="birth" required>
+            <input class="forminput" type="text" placeholder="Camper's ID number" name="idNumber" required>
+            <label class="forminput" for=""><i>Camper's entry date</i></label>
+            <input class="forminput" type="date" placeholder="Camper's entry date" name="entry" required>
+            <select class="forminput"  name="teamId" required>
+                <option value="" selected>Select Camper's team</option>
                 <option value="1">Sputnik</option>
                 <option value="2">Apollo</option>
                 <option value="3">Artemis</option>
             </select>
-            <button type="submit">Add Camper</button>
+            <button type="submit" class="forminput">Add Camper</button>
         </form>
-        <button type="button" class="change">GO MAIN PAGE!</button>
+        <button type="button" class="change forminput">GO MAIN PAGE!</button>
     </div>
 <style>
     *{
@@ -54,10 +54,7 @@
         margin: auto;
     }
 
-    input,
-    select,
-    option,
-    button {
+    .forminput{
         border: none;
         border-end-end-radius: 20px;
         border-start-start-radius: 20px;

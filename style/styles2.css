@@ -11,3 +11,30 @@ body{
     background-attachment: fixed;
     background-position: center;
 }
+form {
+    padding: 30px;
+    border-end-end-radius: 20px;
+    border-start-start-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.164);
+    backdrop-filter: blur(.5rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 16px;
+    width: fit-content;
+    margin: auto;
+}
+
+.forminput, form button{
+    border: 1px solid #000000;
+    border-end-end-radius: 20px;
+    border-start-start-radius: 20px;
+    box-sizing: border-box;
+    width: 276px;
+    height: 40px;
+}
+form button{
+    background-color: red;
+    color: #ffff;
+}

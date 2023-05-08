@@ -37,8 +37,8 @@ let ws = {
                     </div>
                     <div class="modal-footer">
                     <button type="button" class="btn btn-light" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="delete ${element.id} btn btn-dark" data-bs-dismiss="modal">Delete</button>
-                    <button type="button" class="edit ${element.id} btn btn-secondary" data-bs-dismiss="modal">Edit</button>
+                    <button type="button" class="delete ${element.id} btn btn-dark">Delete</button>
+                    <button type="button" class="edit ${element.id} btn btn-secondary">Edit</button>
                     </div>
                 </div>
                 </div>
