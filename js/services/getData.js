@@ -2,6 +2,7 @@ import delete_users from "./deleteData.js";
 import edit_users from "./editData.js";
 export default {
     ws: new Worker("js/ws/wsGet.js", {type:"module"}),
+    ws3: new Worker("js/ws/wsUnderage.js", {type: "module"}),
     printData(){
         const table = document.querySelector(".table")
         this.ws.postMessage("hola");
@@ -23,4 +24,11 @@ export default {
               });
           });
     },
+    getUnderage(){
+        const div = document.querySelector(".underage")
+        this.ws3.postMessage("hola");
+        this.ws3.addEventListener("message", (e)=>{
+            div.insertAdjacentHTML("beforeend", e.data)
+        })
+    }
 }
