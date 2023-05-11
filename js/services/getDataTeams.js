@@ -11,6 +11,7 @@ export default {
     printCampers(){
         this.ws4.postMessage("hola");
         this.ws4.addEventListener("message", (e)=>{
+            console.log(e.data.data);
         })
     }
 }

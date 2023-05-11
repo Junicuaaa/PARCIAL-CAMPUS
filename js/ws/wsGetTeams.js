@@ -39,9 +39,6 @@ let ws = {
         });
         return html
     },
-    embedCamper(data){
-        console.log(data);
-    }
 
 }
 self.addEventListener("message", async (e) => {

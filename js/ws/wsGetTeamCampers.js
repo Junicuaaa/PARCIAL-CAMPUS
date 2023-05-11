@@ -3,20 +3,20 @@ const url = `http://localhost:${puerto}/teams?_embed=campers`
 let ws = {
     print(data) {
         let html = ``;
-        let contador = 0
         data.forEach(element => {
             element.campers.forEach(element2 =>{
+                if (element.campers.teamId === 1) {
+                }
                 nameCamper = element2.name
+                console.log(nameCamper);
+                html += /*html */`
+                
+                `
             })
-            html += /*html */`
-            `
             return html
         });
         return html
     },
-    embedCamper(data){
-        console.log(data);
-    }
 
 }
 self.addEventListener("message", async (e) => {
@@ -24,6 +24,5 @@ self.addEventListener("message", async (e) => {
         method: "GET",
         headers: { "Content-Type": "application/js" }
     })).json()
-    console.log(data);
-    postMessage((ws.print(data)));
+    postMessage({data: (ws.print(data))});
 })

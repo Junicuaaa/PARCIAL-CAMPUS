@@ -34,6 +34,7 @@ self.addEventListener("message", async (e)=>{
             method: "GET", 
             headers: headers,
         })).json();
+        console.log(request);
         postMessage(ws2.dataForm(request))
     }
 

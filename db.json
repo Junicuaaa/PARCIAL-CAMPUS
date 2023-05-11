@@ -1,18 +1,6 @@
 {
   "campers": [
     {
-      "name": "dsadsadsa",
-      "age": "dsadsadsa",
-      "phone": "dsadsadsa",
-      "email": "dssadda@gmail.com",
-      "adress": "dsadsadsa",
-      "birth": "2022-04-07",
-      "idNumber": "asdsadssad",
-      "entry": "2022-04-07",
-      "teamId": 2,
-      "id": 4
-    },
-    {
       "name": "ivan sanchez",
       "age": "15",
       "phone": "1515",
@@ -23,18 +11,6 @@
       "entry": "2022-04-07",
       "teamId": 1,
       "id": 5
-    },
-    {
-      "name": "johan",
-      "age": "19",
-      "phone": "2103212",
-      "email": "lksjadjlksadq@gmail.com",
-      "adress": "sajdljksad",
-      "birth": "2022-04-07",
-      "idNumber": "109894",
-      "entry": "2022-04-07",
-      "teamId": 1,
-      "id": 6
     }
   ],
   "teams": [
